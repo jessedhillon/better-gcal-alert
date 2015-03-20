@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
-
   "name": "Better Google Calendar Alert",
+  "short_name": "Better Alert",
   "description": "Replaces the Google Calendar popup with something less intrusive",
   "version": "1.0",
   "icons": {"16": "gcal-alert16.png",
