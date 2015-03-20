@@ -4,6 +4,11 @@
   "name": "Better Google Calendar Alert",
   "description": "Replaces the Google Calendar popup with something less intrusive",
   "version": "1.0",
+  "icons": {"16": "gcal-alert16.png",
+            "32": "gcal-alert32.png",
+            "48": "gcal-alert48.png",
+            "64": "gcal-alert64.png",
+            "128": "gcal-alert128.png"},
   "content_scripts": [{
     "matches": ["https://www.google.com/calendar/*"],
     "css": ["gcal-alert.css"],
